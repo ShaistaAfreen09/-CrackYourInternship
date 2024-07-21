@@ -1,3 +1,7 @@
+# Question states that we need to rotate the matrix 90 degree clockwise.
+#Approach : we can firstly gt the length of matrix followed by suppose top is empty and the flipping it with last or the bottom row (through swapping) then we can transpose the matrix and get our result.
+
+
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
